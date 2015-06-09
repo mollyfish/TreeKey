@@ -3,10 +3,13 @@ body {
   font-size: 1em;
   color: #000;
   margin: .5em;
+  margin: 0 auto;
+  width: 100%;
+  text-align: center; 
 }
 h1 {
   font-size: 200%;
-  margin-left: .5em;
+  margin: .5em;
 }
 h2 {
   font-size: 130%;
@@ -16,38 +19,6 @@ h2 {
 }
 h3 {
   font-size: 180%;
-}
-ul {
-  margin-left: 2em;
-  margin-top: .5em;
-}
-ul li {
-  margin-top: .5em;
-}
-#column-wrapper {
-  width: 100%;
-  /*background-color: red;*/
-}
-#portfolio {
-  /*background-color: blue;*/
-  float: left;
-  width: 36%;
-  padding: 1em;
-}
-section.buttons {
-  /*background-color: yellow;*/
-  float: left;
-  width: 36%;
-  padding: 1em;
-}
-.buttons ul {
-  list-style: none;
-}
-#cv {
-
-}
-#contact {
-
 }
 button {
   width: 80%;
@@ -59,7 +30,6 @@ button {
   font-family: 'Merriweather Sans', sans-serif;
 }
 footer {
-  /*background-color: brown;*/
   clear: both;
   font-size: 60%;
   font-style: italic;
@@ -68,4 +38,16 @@ footer {
 }
 footer p {
   padding-top: 3em;
+}
+.choice {
+  border: 1px solid #000;
+  border-radius: 15px;
+  margin: 20px auto;
+  width: 520px;
+  height: 520px; 
+}
+.choice p {
+  margin-top: 10px;
+}
+.illustration {
 }
