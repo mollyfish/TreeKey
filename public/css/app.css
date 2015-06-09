@@ -1,0 +1,71 @@
+body {
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1em;
+  color: #000;
+  margin: .5em;
+}
+h1 {
+  font-size: 200%;
+  margin-left: .5em;
+}
+h2 {
+  font-size: 130%;
+  margin-left: .8em;
+  margin-top: .5em;
+  font-style: italic;
+}
+h3 {
+  font-size: 180%;
+}
+ul {
+  margin-left: 2em;
+  margin-top: .5em;
+}
+ul li {
+  margin-top: .5em;
+}
+#column-wrapper {
+  width: 100%;
+  /*background-color: red;*/
+}
+#portfolio {
+  /*background-color: blue;*/
+  float: left;
+  width: 36%;
+  padding: 1em;
+}
+section.buttons {
+  /*background-color: yellow;*/
+  float: left;
+  width: 36%;
+  padding: 1em;
+}
+.buttons ul {
+  list-style: none;
+}
+#cv {
+
+}
+#contact {
+
+}
+button {
+  width: 80%;
+  height: 3.5em;
+  border: 1px solid #000;
+  border-radius: 15px;
+  background-color: #ededed;
+  font-size: 100%;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+footer {
+  /*background-color: brown;*/
+  clear: both;
+  font-size: 60%;
+  font-style: italic;
+  text-align: center;
+  height: 5em;
+}
+footer p {
+  padding-top: 3em;
+}
